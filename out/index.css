@@ -1,0 +1,387 @@
+*{
+	list-style: none;
+	padding: 0;
+	margin : 0;
+	text-decoration: none;
+	font-family: 'Microsoft YaHei',sans-serif;
+}
+.wb-head{
+	position: relative;
+	height: 94px;
+	padding: 0 30px;
+	background-color: #373c64;
+}
+.wb-head-contain{
+	width: 980px;
+	height: 94px;
+	margin: 0 auto;
+	background: url(http://pic2.58.com/ui7/job/qy/mingqi/debang/deb.png) 15px 0 no-repeat;
+
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+.content-head{
+	height: 30px;
+}
+.path-jpg{
+	float: left;
+	margin-top: 4px;
+}
+.content-text{
+	margin-top: 22px;
+	margin-left: 20px;
+	margin-right: 18px;
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.message-title{
+	margin-left: 25px;
+	margin-top : 25px;
+
+}
+.invitePosition{
+	z-index: 1000;
+	float: left;
+	position: absolute;
+	line-height: 32px;
+	width: 230px;
+	padding-left : 8px;
+	border: 1px solid #c8c8c8;
+	color: #9a9a9a;
+	background-color: #fff;
+	top : -60px;
+	left: 110px;
+
+}
+.city-choose{
+	background-color:#fff;
+	position: absolute;
+	z-index: 1000;
+	width: 690px;
+	left: 108px;
+	top: -23px;
+	border: 1px solid #f3f3f3;
+	/*background-color:#fff;*/
+	height:195px;
+	display: none;
+}
+.dis-non{
+	display: none;
+}
+.city-title{
+	height: 32px;
+	line-height: 32px;
+	overflow: hidden;
+	border-bottom: 1px solid #f3f3f3;
+}
+.city-choose .city-title li{
+	float: left;
+	width: 52px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 16px;
+	padding-right: 30px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.city-choose .city-title .city-active{
+	background-color: #494e7b;
+	color: #fbfbfb;
+}
+.city-choose .city-detail{
+	padding: 20px 0;
+}
+.city-choose .city-detail li{
+	float: left;
+	font-size: 14px;
+	color: #999;
+	width: 75px;
+	margin-right: 45px;
+	margin-left: 18px;
+	line-height: 30px;
+	display: block;
+	cursor: pointer;
+}
+.select{
+	position: absolute;
+	width: 333px;
+	line-height: 30px;
+	border: 1px solid #c8c8c8;
+	top : -60px;
+	left: 365px;
+}
+.select input{
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	width: 323px;
+	color: #9a9a9a;
+	border : 0;
+	font-size: 16px;
+}
+.button{
+	position: absolute;
+	left: 735px;
+	top: -66px;
+	background-color: #494e7b;
+	margin-top: 4px;
+}
+.button span{
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	width: 136px;
+}
+.navigation{
+	position: relative;
+	width: 980px;
+	height: 1px;
+	margin: 0 auto;
+}
+.navigation-box {
+	width: 980px;
+	height: 40px;
+	overflow: hidden;
+	padding: 20px 0 10px 0;
+	position: absolute;
+	top: 45px;
+	left: 0;
+	margin: 0 auto;
+}
+#jobchoose{
+	position: relative;
+	z-index: 10;
+}
+#jobchoose li{
+	float: left;
+	width: 100px;
+	height: 38px;
+	line-height: 38px;
+	border-right: 1px #e9e9e9 solid;
+	text-align: center;
+
+}
+.bg-head a{
+	background-color: #494e7b;
+	color: #fff;
+}
+	li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #4b4b4b;
+	font-size: 14px;
+	list-style: none;
+	font-weight: 700;
+}
+.content-list{
+	position: absolute;
+	top: 12px;
+	left: 0;
+	width: 980px;
+	margin-top: 25px;
+	height: 485px;
+}
+.content-list ul{
+	padding-left: 40px;
+	clear: both;
+	overflow: hidden;
+}
+.list-title{
+	width: 940px;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+	background-color: #f6f6f6;
+}
+.content-list li{
+	color: #8b8b8b;
+	float: left;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+}
+.content-list ul a {
+	color: #4b4f71;
+	float: left;
+	width: 180px;
+	height: 42px;
+	overflow: hidden;
+	zoom: 1;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.list-title li{
+	color: #999;
+	line-height: 36px;
+	font-size: 16px;
+}
+.list-title .spl{
+	width: 180px;
+}
+.spl{
+	width:180px;
+	padding-right: 50px;
+}
+.spl1{
+	width: 145px;
+	overflow: hidden;
+}
+.splm{
+	width: 110px;
+	overflow: hidden;
+}
+.splw{
+	width: 165px;
+	overflow: hidden;
+}
+.spls{
+	width: 170px;
+	overflow: hidden;
+}
+.date{
+	width: 120px;
+	overflow: hidden;
+}
+.near-city{
+	position: absolute;
+	font-size: 12px;
+	line-height: 2;
+	padding-left: 40px;
+	padding-top: 5px;
+	top : 460px;
+}
+.content-center{
+	position: absolute;
+	top : 780px;
+	width: 980px;
+}
+.center-text{
+	position: absolute;
+	width: 980px;
+	margin-left: 15px;
+	margin-right: 18px;
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bolder;
+	display: inline-block;
+}
+.center-media{
+	position: absolute;
+	top: 70px;
+	width:400px;
+	height:330px;
+	/*background: url('http://localhost:8008/src/img/media.png');*/
+}
+.center-media-text{
+	position: absolute;
+	top: 0px;
+	width: 540px;
+	height: 260px;
+	float: right;
+	left: 435px;
+	font-size: 14px;
+}
+.center-media-text p{
+	line-height: 28px;
+	text-indent: 2em;
+	margin-bottom: 0;
+	font-size: 13px;
+}
+.job-path{
+	position: absolute;
+	top: 450px;
+	width: 980px;
+	margin: 0 auto;
+}
+.path-text {
+	float: left;
+	margin-left: 15px;
+	font-weight: 700;
+	font-size: 18px;
+}
+.feel {
+	width: 980px;
+	position: absolute;
+	top: 630px;
+}
+.footer {
+	position: relative;
+	top: 1650px;
+	background-color: #f6f6f6;
+}
+.footer-center {
+	background-color: #373c64;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	color: #aaaec9;
+	margin-top: 80px;
+}
+.poster-main {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	height: 370px;
+	top: 50px;
+}
+.poster-main poster-btn{
+	position: absolute;
+	cursor:pointer;
+	opacity: 0.8;
+}
+.poster-prev-btn{
+	position: absolute;
+	left: -36px;
+	top:136px;
+	background: url(http://pic2.58.com/ui7/job/qy/mingqi/debang/lunbo_arr.png) no-repeat 0 0;
+}
+.poster-next-btn{
+	position : absolute;
+	right: -36px;
+	top:136px;
+	background:url(http://pic2.58.com/ui7/job/qy/mingqi/debang/lunbo_arr.png) no-repeat -36px 0;
+}
+.poster-item{
+	position: absolute;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.pager{
+	position: relative;
+	top:535px;
+	text-align: center;
+}
+.pager a {
+	height: 34px;
+	line-height: 34px;
+	display: inline-block;
+	padding: 0 13px;
+	margin-left: -1px;
+	position: relative;
+	z-index: 1;
+	color: #494e7b;
+	border: 1px solid #e6e7e8;
+	font: 700 14px/34px Arial;
+	vertical-align: middle;
+	margin: 0;
+	background-color: #fff;
+}
+.poster-next-btn-hover{
+	background-position: 0 -107px;
+}
+.poster-prev-btn-hover{
+	background-position: -36px -107px;
+}
